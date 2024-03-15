@@ -28,9 +28,6 @@
   max-width: 256px;
   color: var(--Grey, #7D889E);
 text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-/* Body */
-font-family: Outfit;
 font-size: 0.9375rem;
 font-style: normal;
 font-weight: 400;

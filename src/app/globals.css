@@ -27,9 +27,6 @@ a {
 h1 {
 color: #1F314F;
 text-align: center;
-font-feature-settings: 'clig' off, 'liga' off;
-/* Heading */
-font-family: Outfit;
 font-size: 1.375rem;
 font-style: normal;
 font-weight: 700;
