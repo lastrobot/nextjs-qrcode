@@ -36,6 +36,8 @@ letter-spacing: 0.01175rem;
 }
 
 .qrWrapper {
+  overflow: hidden;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,6 +45,32 @@ letter-spacing: 0.01175rem;
   height: 288px;
   border-radius: 0.625rem;
   background: #2C7DFA;
+}
+
+.qrcode {
+  z-index: 100;
+}
+
+.qrWrapper::before, .qrWrapper::after {
+  content: '';
+  position: absolute;
+  background:  #3685FF;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.qrWrapper::before {
+  top: -160px;
+  left: -130px;
+  width: 328px;
+  height: 328px;
+}
+
+.qrWrapper::after {
+  top: 160px;
+  left: 130px;
+  width: 270px;
+  height: 270px;
 }
 
 
